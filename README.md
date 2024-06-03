@@ -11,7 +11,7 @@
 
 ## Project Overview
 
-KryptoniteApp is designed to handle user authentication, including Two-Factor Authentication (2FA) using One-Time Passwords (OTP), and secure file uploads. This application adheres to modern RESTful API design principles and leverages a variety of technologies to ensure security and efficiency.
+Kryptonian App is designed to handle user authentication, including Two-Factor Authentication (2FA) using One-Time Passwords (OTP), and secure file uploads. This application adheres to modern RESTful API design principles and leverages a variety of technologies to ensure security and efficiency.
 
 ## Features Implemented
 
@@ -25,8 +25,6 @@ KryptoniteApp is designed to handle user authentication, including Two-Factor Au
         - Checks if an existing OTP is still valid before generating a new one.
     - **JWT Token Handling**: Issues JWT tokens for authenticated sessions.
         - Temporary JWT token issued for OTP validation.
-        - Full session JWT token issued after successful OTP verification.
-        - Tokens are stored in secure, HTTP-only cookies.
 2. **API Key Management**:
     - Users can generate API keys to upload files.
     - API keys are used for authenticating file uploads without requiring an auth token.
