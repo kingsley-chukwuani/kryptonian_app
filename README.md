@@ -39,7 +39,7 @@ Kryptonian App is designed to handle user authentication, including Two-Factor A
 
 ## API Endpoints
 
-### Base URL: ``
+### Base URL: `https://kryptonian-app.onrender.com`
 
 #### User Authentication
 
@@ -92,7 +92,7 @@ Kryptonian App is designed to handle user authentication, including Two-Factor A
     - Response:
         ```json
         {
-          "message": "OTP verified, login successful",
+          
           "token": "auth_jwt_token"
         }
         ```
